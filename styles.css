@@ -1,0 +1,92 @@
+/* Establece el alto y el margen del documento y configura el diseño en columna */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+/* Aplica estilo al cuerpo del documento */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* Estilo para el encabezado */
+.header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+/* Configura la barra de navegación para que se muestre en columna */
+.navbar {
+    flex-direction: column;
+}
+/* Establece la disposición de los elementos de navegación */
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+/* Define el ancho de los elementos de navegación */
+.navbar-nav .nav-item {
+    width: 100%;
+}
+/* Establece el estilo de los enlaces de navegación */
+.navbar-nav .nav-link {
+    padding: 10px 20px;
+    color: #fff;
+}
+/* Cambia el color de fondo de los enlaces al pasar el ratón */
+.navbar-nav .nav-link:hover {
+    background-color: #007bff;
+}
+/* Estilo para los íconos sociales */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+/* Configura el estilo de los enlaces sociales */
+.social-icons a {
+    color: #fff;
+    font-size: 1.5em;
+    transition: color 0.3s;
+    margin: 0 10px;
+}
+/* Cambia el color de los íconos sociales al pasar el ratón */
+.social-icons a:hover {
+    color: #007bff;
+}
+/* Estilo general para las secciones */
+.section {
+    padding: 40px 20px;
+}
+/* Añade un borde redondeado a las imágenes del carrusel */
+.carousel-inner img {
+    border-radius: 10px;
+}
+/* Estilo para las leyendas del carrusel */
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+}
+/* Estilo para el efecto de vidrio esmerilado */
+.frosted-glass {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+}
+/* Estilo para el pie de página */
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
